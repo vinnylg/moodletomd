@@ -1,10 +1,19 @@
 # moodleToMD
+
+---
+
+## About
 Scrap any moodle and turn moodle classes into MD files
 
+---
 ## Web-Scrapping
 ### TOC struct
+Tags from page navigation to get wanted date
 
 #### UFPR VIRTUAL
+````html
+https://ufprvirtual.ufpr.br/
+````
 ##### Login
 ````html
 https://ufprvirtual.ufpr.br/login/index.php
@@ -34,3 +43,7 @@ https://ufprvirtual.ufpr.br/course/view.php?id={course_id}
                 <ul class='subtimelines'>
                     <li class='subtimeline'>
 ```
+## More info
+Package structured based on:
+- [Dead Simple Python: Project Structure and Imports](https://dev.to/codemouse92/dead-simple-python-project-structure-and-imports-38c6)
+- [Structuring Your Project](https://docs.python-guide.org/writing/structure/)
